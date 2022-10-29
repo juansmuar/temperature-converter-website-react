@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+div {
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+
+#degrees {
+    width:70px;
+    height: 18px;
+}
+
+#type {
+    height: 18px;
+}
+
+button{
+    background-color: rgb(85, 137, 232);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    height: 18px;
+    align-self: flex-end;
+    width: 15%;    
+}
+
+button:active{
+    background-color: rgb(85, 137, 232, 50%);
+    color:rgb(85, 137, 232);
+}
+
+label{
+    color: gray;
+    font-size: 15px;
+}
